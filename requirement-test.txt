@@ -1,0 +1,8 @@
+# --- Automation Testing (Playwright & Pytest) ---
+pytest
+pytest-django
+pytest-playwright
+playwright
+
+# --- Test Management (Qase) ---
+qase-pytest

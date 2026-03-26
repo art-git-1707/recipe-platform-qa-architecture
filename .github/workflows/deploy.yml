@@ -41,7 +41,7 @@ jobs:
           QASE_TESTOPS_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
           QASE_TESTOPS_PROJECT: RWA
         run: |
-          pytest tests/test_regression.py
+          pytest tests/
 
   deploy:
     name: Pull Code & Restart Docker

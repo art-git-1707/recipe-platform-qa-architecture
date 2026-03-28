@@ -103,7 +103,7 @@ Integrated **Qase.io** directly into the GitHub Actions pipeline via the `qase-p
 Since this is an architectural showcase, you cannot spin up the application locally. However, you can audit the engineering quality by reviewing the following core components:
 
 1. **The CI/CD Gatekeeper:** Navigate to `.github/workflows/deploy.yml` to see the Zero-Touch deployment logic, environment variable provisioning, and Redis service integration.
-2. **Network Interception & Async Tests:** Review `tests/test_regression.py` to see how Playwright intercepts WebSocket and AJAX responses (`expect_response`) before asserting DOM changes, eliminating test flakiness.
+2. **Network Interception & Async Tests:** Review `tests/` to see how Playwright intercepts WebSocket and AJAX responses (`expect_response`) before asserting DOM changes, eliminating test flakiness.
 3. **Dynamic Test Data:** Check the Pytest fixtures in the `tests/` directory to see how images are generated on-the-fly using `Pillow` for testing upload features without relying on static assets.
 
 ---

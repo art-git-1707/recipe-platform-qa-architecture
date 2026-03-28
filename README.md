@@ -89,12 +89,10 @@ Integrated **Qase.io** directly into the GitHub Actions pipeline via the `qase-p
 ## 📸 Quality Assurance Dashboards
 
 ### Qase.io Automated Test Run Reporting
-*(Replace the image link below with a screenshot of your Qase dashboard showing 100% Passed tests from a recent CI/CD run)*
 ![Qase_Dashboard - Automated Test Run](https://github.com/user-attachments/assets/a2468134-10d9-4911-b8aa-1a9006e07949)
 
 
 ### GitHub Actions CI/CD Gatekeeper
-*(Replace the image link below with a screenshot of your GitHub Actions workflow showing the Test job passing and triggering the Deploy job)*
 ![Github_Action](https://github.com/user-attachments/assets/b51f7f4c-393a-431c-be11-9233b809eb71)
 
 
